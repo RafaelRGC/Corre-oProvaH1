@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "Corre\u00E7\u00E3oH1.Controllers.EleitorController",
+    "Method": "CadastrarEleitor",
+    "RelativePath": "api/Eleitor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eleitor",
+        "Type": "Corre\u00E7\u00E3oH1.Models.Eleitor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Corre\u00E7\u00E3oH1.Controllers.EleitorController",
+    "Method": "ListarEleitores",
+    "RelativePath": "api/Eleitor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Corre\u00E7\u00E3oH1.Controllers.EleitorController",
+    "Method": "RegistrarJustificativa",
+    "RelativePath": "api/Eleitor/justificativas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "justificativa",
+        "Type": "Corre\u00E7\u00E3oH1.Models.Justificativa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Corre\u00E7\u00E3oH1.Controllers.EleitorController",
+    "Method": "ListarJustificativas",
+    "RelativePath": "api/Eleitor/justificativas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Corre\u00E7\u00E3oH1.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Corre\u00E7\u00E3oH1.WeatherForecast, Corre\u00E7\u00E3oH1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
